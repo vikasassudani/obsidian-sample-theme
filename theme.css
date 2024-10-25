@@ -1,4 +1,18 @@
+/* Theme Light Mode Colors */
+  .theme-light {
+	--background-primary: #f7f6f5;
+	--background-secondary: #f8f7f6;
+  }
+
+  /* Theme Dark Mode Colors */
+  .theme-dark {
+	--background-primary: #202122;
+	--background-secondary: #171718;
+  }
+
+/* Global */
 body {
+	--font-text-theme: Manrope, sans-serif;
 	--radius-s: 0px;
 	--radius-m: 0px;
 	--radius-l: 0px;
