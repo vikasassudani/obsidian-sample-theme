@@ -47,3 +47,17 @@ svg * {
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
+
+/* Sidebar which shows files and notes with other root controls */
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile {
+    background-color: var(--background-secondary);
+    /* border-top: var(--tab-outline-width) solid var(--tab-outline-color); */
+    display: var(--vault-profile-display);
+    align-items: center;
+    height: unset;
+    flex: 0 0 auto;
+    gap: var(--size-4-1);
+    justify-content: space-between;
+    padding: var(--size-4-4) var(--size-4-4);
+    order: 0; 
+}
