@@ -61,3 +61,39 @@ body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-p
     padding: var(--size-4-4) var(--size-4-4);
     order: 0; 
 }
+
+.workspace-tabs mod-top mod-top-left-space {
+	
+}
+
+.workspace-tab-header-container {
+    display: flex;
+    /* background-color: var(--tab-container-background); */
+    height: var(--header-height);
+    /* border-bottom: var(--tab-outline-width) solid var(--tab-outline-color); */
+	border-bottom: 0px;
+    flex: 0 0 auto;
+    padding-left: var(--size-4-4);
+    padding-right: var(--size-4-4);
+    position: relative
+}
+
+.workspace-tabs {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.workspace-tab-header-container {
+    display: flex;
+	flex-direction: column;
+    /* background-color: var(--tab-container-background); */
+    height: var(--header-height);
+    /* border-bottom: var(--tab-outline-width) solid var(--tab-outline-color); */
+    border-bottom: 0px;
+    flex: 0 0 auto;
+    padding-left: var(--size-4-4);
+    padding-right: var(--size-4-4);
+    position: relative;
+}
